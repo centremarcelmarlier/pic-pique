@@ -19,47 +19,63 @@ class Question {
   }
 
   let questions = [
+	  
+	  new Question("Observation : Qui possède des piquants comme Pic-Pique ?", 
+    ["Le champignon", "Le marron", "L'oiseau", "L'arbre"], 
+    "Le marron"),
+	  
+	  	new Question("Observation : Où se cache Pic-Pique ? ", 
+    ["Dans le creux d’un arbre", "Derrière le chien Jojo", "Sur une branche d’arbre", "Dans une maison"], 
+    "Dans le creux d’un arbre"),
+	  
+	  
+		new Question("A quel régime alimentaire appartiennent-ils ?", 
+    ["Omnivore", "Carnivore", "Herbivore", "Insectivore"], 
+    "Insectivore"),
+	  
+	  
+	      new Question("Combien de piquants possède un hérisson adulte ?", 
+    ["Entre 5000 et 7500", "Entre 7500 et 10.000", "Entre 10.000 et 20.000", "Entre 50 et 100"], 
+    "Entre 5000 et 7500"),
+	  
+	  
+	  	new Question("Observation : Quel animal observe la scène ?  ", 
+    ["Un autre hérisson", "Un renard", "un lapin", "Une biche"], 
+    "Une biche"),
+	  
+	  	  	new Question("Observation : Quel légume ne se trouve pas dans le panier ", 
+    ["Poireau", "Chou-fleur", "Tomate", "Tout ces légumes sont dans le panier"], 
+    "Poireau"),
+	  
+	  	new Question("Retrouves la bonne empreinte de patte du hérisson en analysant le panneau", 
+    ["1 ", "2 ", "3", "4"], 
+    "3"),
+
+	  
     new Question("Combien de jeunes une maman hérisson peut-elle avoir sur une année ?", 
     ["1 à 3", "5 à 9", "10 à 20", "20 à 25"], 
     "5 à 9"),
 	  
-    new Question("Combien de piquants possède un hérisson adulte ?", 
-    ["Entre 5000 et 7500", "Entre 7500 et 10.000", "Entre 10.000 et 20.000", "Entre 50 et 100"], 
-    "Entre 5000 et 7500"),
-	  
-	new Question("A quel régime alimentaire appartiennent-ils ?", 
-    ["Omnivore", "Carnivore", "Herbivore", "Insectivore"], 
-    "Insectivore"),
-	  
-	new Question("Quel bruit étrange fait le hérisson ?", 
-    ["Le miaulement du chat", "Le grognement du cochon", "Le grincement de la chauve-souris", "Le coassement de la grenouille"], 
-    "Le grognement du cochon"),
-	  
-	new Question("Le hérisson sait-il nager ?", 
-    ["non, il pourrait se noyer s'il y a une mare dans votre jardin", "oui, il a tous ses brevets de natation", "oui mais attention, il lui faut une rampe pour sortir de votre mare sinon, il s'y noie !", "oui mais seulement en dos crawlé"], 
-    "oui mais attention, il lui faut une rampe pour sortir de votre mare sinon, il s'y noie !"),
-	  
-	  
-	new Question("Observation : Qui possède des piquants comme Pic-Pique ?", 
-    ["Le champignon", "Le marron", "L'oiseau", "L'arbre"], 
-    "Le marron"),
 
-	new Question("Observation : Où se cache Pic-Pique ? ", 
-    ["Dans le creux d’un arbre", "Derrière le chien Jojo", "Sur une branche d’arbre", "Dans une maison"], 
-    "Dans le creux d’un arbre"),
-	  
-	new Question("Observation : Quel animal observe la scène ?  ", 
-    ["Un autre hérisson", "Un renard", "un lapin", "Une biche"], 
-    "Une biche"),
-	  
-	  	new Question("Observation : Quel légume ne se trouve pas dans le panier ", 
-    ["Poireau", "Chou-fleur", "Tomate", "Tout ces légumes sont dans le panier"], 
-    "Poireau"),
 	  
 	  	  	new Question("Observation : Combien de pédoncules de pomme comptes-tu ? ", 
     ["3", "5", "7", "9"], 
     "3"),
 	  
+	  
+	new Question("Quel bruit étrange fait le hérisson ? -> Tu peux demander de l'aide dans la zone de Léon le Hérisson", 
+    ["1 - Le miaulement du chat", "2 - Le grognement du cochon","3 - Le coassement de la grenouille" , "4 - Le grincement de la chauve-souris"], 
+    "2 - Le grognement du cochon"),
+	  
+
+	  
+	
+
+
+	  
+
+	  
+
 	  
   ];
   
