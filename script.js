@@ -95,6 +95,7 @@ class Question {
     endQuiz: function() {
       endQuizHTML = `
         <h1>Quiz terminé !</h1>
+	<h3>On se donne rendez-vous au Château pour finaliser le jeu ! </h3>
         <h3> Votre score est de : ${quiz.score} / ${quiz.questions.length}</h3>`;
       this.elementShown("quiz", endQuizHTML);
 		
