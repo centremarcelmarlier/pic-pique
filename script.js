@@ -30,7 +30,7 @@ class Question {
 	  
 	  
 	new Question("À quel régime alimentaire appartiennent les hérissons ?", 
-    ["Omnivore", "Carnivore", "Herbivore", "Insectivore"], 
+    ["Cannibale", "Carnivore", "Herbivore", "Insectivore"], 
     "Insectivore"),
 	  
 	  
@@ -52,7 +52,7 @@ class Question {
     "3"),
 
     new Question("Combien de jeunes une maman hérisson peut-elle avoir sur une année ?", 
-    ["1 à 3", "5 à 9", "10 à 20", "20 à 25"], 
+    ["1 à 3", "5 à 7", "10 à 20", "20 à 25"], 
     "5 à 9"),
 	  
 	new Question("Observation : Combien de pédoncules de pomme comptes-tu ? ", 
