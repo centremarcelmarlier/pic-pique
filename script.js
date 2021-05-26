@@ -53,7 +53,7 @@ class Question {
 
     new Question("Combien de jeunes une maman hérisson peut-elle avoir sur une année ?", 
     ["1 à 3", "5 à 7", "10 à 20", "20 à 25"], 
-    "5 à 9"),
+    "5 à 7"),
 	  
 	new Question("Observation : Combien de pédoncules de pomme comptes-tu ? ", 
     ["3", "5", "7", "9"], 
